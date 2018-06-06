@@ -1,23 +1,21 @@
-# Board-Game-Api
-Filter for board games 
+# vue-boardgame
 
-Project to build a CRUD database with firebase on the backend that has an admin dashboard and a user interface for choosing/filtering through the board games in the database.
+> A Vue.js project
 
-todo:
+## Build Setup
 
-* ~~Convert this project into a gulp project for babel~~
-* Convert this project to a ~~React project~~ Vue Project :) 
-* ~~Add Firebase database~~
-* Add Firebase Validation 
-* Add Firebase Login or Auth0 Login
-* Build out dashboard
-    * Home page ( welcome message, displays statistics about database i.e number of games )
-    * View Games Page ( displays table containing all the games with options to edit / delete )
-    * ~~Add Games Page ( displays forms to add games to database )~~
-   
-* Build out UI
-   * Move Home, View, Add menu to bottom of screen instead of top
-   
-   
-* UX Stuff
-   * Placeholder text for search should be inofrmative i.e "Search for a horror game"
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
